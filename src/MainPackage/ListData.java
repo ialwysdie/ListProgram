@@ -44,6 +44,7 @@ public class ListData {
         
     }
     
+    //writes list data to local file,  will create it if it does not exist
     public void WriteFile(ArrayList<String> listnames, ArrayList<ItemList> listofitemlists) 
             throws IOException{
         
@@ -67,7 +68,7 @@ public class ListData {
     }
     
     
-    
+    //Reads any list data from locally created file
     public void ReadFile(ArrayList<String> listnames, ArrayList<ItemList> listofitemlists) 
             throws FileNotFoundException, IOException{
         
